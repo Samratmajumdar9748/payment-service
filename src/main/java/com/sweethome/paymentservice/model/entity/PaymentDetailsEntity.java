@@ -1,6 +1,5 @@
 package com.sweethome.paymentservice.model.entity;
 
-import java.sql.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
