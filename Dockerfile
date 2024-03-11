@@ -12,4 +12,3 @@ WORKDIR /usr/src/app
 COPY --from=build /usr/src/app/target/paymentService.jar /usr/app/paymentService.jar
 EXPOSE 8082
 CMD ["java","-jar","/usr/app/paymentService.jar"]
-
